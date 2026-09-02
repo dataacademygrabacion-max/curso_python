@@ -1,0 +1,9 @@
+id_producto;producto;precio_lista;categoria
+P01;Laptop;3200.0;Tecnologia
+P02;Monitor;780.0;Tecnologia
+P03;Teclado;120.0;Tecnologia
+P04;Mouse;65.0;Tecnologia
+P05;Audifonos;210.0;Tecnologia
+P06;Impresora;950.0;Tecnologia
+P07;Webcam;180.0;Tecnologia
+P08;Silla;640.0;Mobiliario

@@ -1,0 +1,81 @@
+﻿id_usuario,email,nombre,rol,flg_activo,fec_registro
+ef43a4a9-c5c7-4483-ac09-2f0981ad1ebe,meli231144@gmail.com,Melissa Katherine Ponce Fernández,STUDENT,True,2026-07-26 22:31:32.771375
+99ad688c-a44e-48e9-b2ef-7c34528fa345,estudiante1@gmail.com,estudiante1 ,STUDENT,True,2026-07-09 22:03:12.817240
+64289635-01f9-4e5c-99c2-0f6c38cc0315,972847175campo@gmail.com,Joseluis Antonio Campo Bocanegra,STUDENT,True,2026-07-26 22:33:44.785667
+53ff0875-13f8-4948-88a0-a5563b8271fd,valerajeanpier26@gmail.com,Jeanpier Michaelson Valera Yana,STUDENT,True,2026-07-26 22:33:55.280061
+1b6aa698-9e3f-4ed4-862e-e34d9533b4ef,velizmajo28@gmail.com,María José Veliz de la Cruz,STUDENT,True,2026-07-26 22:34:02.141332
+2ba56c92-a4ab-427c-b812-30e288e59ca8,cusidiego291@gmail.com,Diego Oswaldo Cusi Ccaihuari,STUDENT,True,2026-07-26 22:34:11.733976
+f1fa282b-10d6-42b8-b8be-9512d0860d57,1921110277@untels.edu.pe,Anthony Ernesto Rojas Avalos,STUDENT,True,2026-07-27 01:12:35.742728
+69034bc6-7b57-470a-bbd0-d61810a9f2ac,edujuegos31245@gmail.com,EDU JOSEPH SANCHEZ GOTEA,STUDENT,True,2026-07-26 22:28:45.602645
+70911b3e-5b1c-4276-950b-0d42e89163b7,diegoagameroc@gmail.com,DIEGO ANDRÉS GAMERO COTRINA,STUDENT,True,2026-07-27 01:12:54.769137
+fe4fdb46-fb10-4f69-b21d-97ee2e222300,josevalebboy@gmail.com,JOSE ARMANDO VALERIANO QUISPE,STUDENT,True,2026-07-27 01:12:59.528823
+52c71f38-ba68-4765-86ec-b8aa5b0625a8,castrovidartemabelnayeli@gmail.com,Mabel Nayeli Rima Castro Vidarte,STUDENT,True,2026-07-27 01:13:08.732309
+f93b930e-2307-4b55-ad13-dfc6442aa8bc,angelo78107102@gmail.com,ANGELO JUAN SANCHEZ FLORES,STUDENT,True,2026-07-27 01:13:13.469215
+188ad9b1-361a-4556-9691-ed4f645ef86b,merinojames@hotmail.com,James Rolando Merino Colcas,STUDENT,True,2026-07-27 01:13:15.954571
+63bd1312-e803-4848-bd20-14605978df0e,cristhian.duran.cayetano@gmail.com,Cristhian Angel Duran Cayetano,STUDENT,True,2026-07-27 01:13:35.324153
+c8f38912-89d2-48e0-8dba-fb6bdcb5359a,merlinrojasa@gmail.com,Merlin Rojas Abanto,STUDENT,True,2026-07-27 01:14:27.499346
+b0fc25c6-7dd5-4b1e-9c40-e2191ac28339,adrianchuchullo@gmail.com,Adrian Chuchullo Rumi,STUDENT,True,2026-07-27 02:09:48.575734
+93766510-7667-4840-b7d0-e9ac42418021,nicollemautino@gmail.com,Nicolle Esther Mautino Borja,STUDENT,True,2026-07-27 02:10:03.604487
+5b1c23b4-92c5-40b1-85cd-9d490465b465,arathhh123@gmail.com,Martin Arath Taboada Rivera,STUDENT,True,2026-07-27 02:10:14.184415
+41d099ff-fa01-4a06-a658-a3fe6c55dbbc,centenochurampijesmarhernan@gmail.com,Jesmar Hernan Centeno Churampi,STUDENT,True,2026-07-27 02:10:31.532309
+770af7f9-7dee-47b2-ad13-a7f328ee6af3,anthonyjhoanpuentecarpio@gmail.com,Anthony Jhoan Puente Carpio,STUDENT,True,2026-07-27 02:10:54.704870
+5d8e58fb-0a55-4696-98c5-f84065726df1,daviiidramirezrosales@gmail.com,David Gianfranco Ramirez Rosales,STUDENT,True,2026-07-27 02:11:02.185867
+cb35b780-8bcf-44ca-a78a-56da0978397c,bryanbv2697@gmail.com,Bryan Fernando Barba Vargas,STUDENT,True,2026-07-27 02:11:14.067389
+cc1fddbd-8409-4cd2-9f40-4c6f0aa63cfb,jeanvelasque75@gmail.com,jhon carlos jea paul velasque,STUDENT,True,2026-07-27 02:27:10.931831
+5d1e2fcb-f1b0-4f12-853c-4f75ee7e88f6,dataacademylatam@gmail.com,Sebastian -,STUDENT,True,2026-07-27 02:27:13.852418
+c32ce992-5b4f-4b9a-b47a-e6779ca98b16,khaoz20624@gmail.com,Alexander Jeferson Arce Crisanto,STUDENT,True,2026-07-29 03:38:08.717326
+94293003-87ff-41f9-9f85-39ba9569f847,alexcercado29@gmail.com,Alex Enrique Cercado Monroy,STUDENT,True,2026-07-28 01:45:07.289068
+a2526ccd-3e40-4516-8672-64debcb98bef,mateopieroaldair@gmail.com,Piero Aldair Mateo Tito,STUDENT,True,2026-07-28 02:00:48.615362
+e9b8853b-a0ef-49a2-8d36-fdbbf59302c6,fernand0guzfer547@gmail.com,Fernando Jose Guzman Fernandez,STUDENT,True,2026-07-28 02:58:57.883119
+ca3747a2-3063-4a46-8310-245afeb2e492,alanrauljq17@gmail.com,Alan Raul Jiménez Quispe,STUDENT,True,2026-07-29 04:06:17.579306
+bee5a90f-5984-4cf7-b693-d207120bb6ad,alexanderjorgecastillo20@gmail.com,Alexander Jorge Castillo,STUDENT,True,2026-07-29 16:35:16.546384
+dec4b74a-446a-4c97-8ad7-3a358e6c4b83,yampiermq07@gmail.com,Yampier Marcelo Quispe,STUDENT,True,2026-07-29 17:32:45.888607
+ab9e5d88-a1e9-4b23-b04f-e549c0e8af62,juliohuidobro21@gmail.com,HUIDOBRO TRUJILLO JULIO CESAR,STUDENT,True,2026-07-29 18:11:28.365896
+5aeeb404-1bb8-42c9-8305-cd5da8269d35,diazsacarisebastian@gmail.com,SEBASTIAN CARLOS DIAZ SACARI,STUDENT,True,2026-07-29 19:37:38.687078
+8a7255cd-cf4b-4703-aee1-c7bdbdb0baea,wfloreshuaytalla@gmail.com,WILLIAM AARON FLORES HUAYTALLA,STUDENT,True,2026-07-29 19:42:49.876127
+41a694fd-d04f-49df-b5ac-55c10b417de7,abelarcasi19@gmail.com,Abel Sebastian Arcasi Rivera,STUDENT,True,2026-07-29 20:36:12.198828
+15da78f8-7c2c-4954-a921-881ba65b4f81,jorgeauccaccollatupa@gmail.com,Jorge luis Aucca Ccollatupa,STUDENT,True,2026-07-29 21:44:05.088373
+fd8f97e1-8fa2-49f8-b2d6-3f1be0cf038f,oscar19vr@gmail.com,OSCAR MIJAIL VERA ROJAS,STUDENT,True,2026-07-30 14:22:44.039844
+509c1e50-5736-4a26-a4c4-b9d85fd9a249,mblancom7@gmail.com,Marco Antonio Blanco Martinez,STUDENT,True,2026-07-30 15:05:34.856253
+62c190c1-d0a4-4580-818c-17c77431df36,alexia.umpiri@gmail.com,Alexia Michelle Arapa Umpiri,STUDENT,True,2026-07-30 15:26:43.410056
+ce1d4121-068d-4235-aace-e4d2974a9ded,paul.quiroz.a@uni.pe,Paúl Quiroz Alva,STUDENT,True,2026-07-30 19:30:42.660496
+372147ba-4c68-41fd-a960-918c4d6e089d,kaisamedinag@gmail.com,Especialización de Data Analyst,STUDENT,True,2026-07-31 03:00:08.748951
+944bcef5-dab9-4e46-a027-ad7b06db3fca,quitoanccasiantonyrodrigo@gmail.com,Antony Rodrigo Quito Anccasi,STUDENT,True,2026-07-31 03:04:34.524335
+2bac7a40-821e-4367-a14a-766604001fd3,jsaldarriagajauregui@gmail.com,José Angel Saldarriaga Jauregui,STUDENT,True,2026-07-31 03:13:55.394128
+89a7d65c-80d0-4ca1-88ce-9b9201f42aa8,e.edynina.h@gmail.com,Edy Enrique Nina Huillca,STUDENT,True,2026-07-31 05:35:17.968687
+1c9ed175-5f98-43ad-aa42-30a8306895d0,cynthia134045@gmail.com,Cynthia Paola Falero Salazar,STUDENT,True,2026-07-31 05:53:31.621438
+b5bd56ad-167a-493b-8f48-e66259e294bc,henryelcr@gmail.com,HENRY GANBERTI SANTA CRUZ BRAMON,STUDENT,True,2026-07-31 18:39:15.931110
+120e6d78-0b74-40a2-add6-a6a8d119c227,miguel.quintana2@unmsm.edu.pe,Miguel Angel Quintana Lopez,STUDENT,True,2026-07-31 19:12:53.870360
+21929836-ea5d-4c7d-9abe-b2d2d48accb0,angelgabrielpachecosalas@gmail.com,Angel Gabriel Pacheco Salas,STUDENT,True,2026-08-01 00:19:40.242943
+4eae7494-04e6-4cea-8297-517295700b40,luistrujilloc96@gmail.com,Luis Jaime Manuel Trujillo Carrasco,STUDENT,True,2026-08-01 04:17:39.033827
+31a7733c-a543-4bb5-8645-fc38ced07c64,francardenasavalos@gmail.com,Francisco Pedro Cardenas Avalos,STUDENT,True,2026-08-01 04:24:13.605085
+87955696-d368-4fdb-9a6b-e48f7aae8f58,eduardo.avalos.re@outlook.com,Eduardo Daniel Avalos Remon,STUDENT,True,2026-08-01 04:33:42.024020
+c6a406cd-fb8b-4f7c-a60b-822fbbff1fd7,obed.chavez.c@uni.pe,Obed Andres Chavez Chambilla,STUDENT,True,2026-08-01 20:36:18.736479
+20cc36cc-4154-486d-9aca-550015a8e39a,richardesteban53@gmail.com,Richard Daniel Esteban Rojas,STUDENT,True,2026-08-07 04:34:18.983977
+5f5ffb3b-798a-4af7-b459-4122d055ef41,danielvizcar@gmail.com,Daniel Vizcardo Cruz,STUDENT,True,2026-08-01 21:11:09.805435
+fe85d5ef-5819-4be7-a0f4-7cbc7d7ed29d,luis.torre.tanta2003@gmail.com,Luis Enrique Torre Tanta,STUDENT,True,2026-08-01 20:50:05.975678
+5ae79a91-5dca-4247-b8cf-c4527b11bd82,salvadorkelly72@gmail.com,Kelly Alessandra Salvador Cahuana,STUDENT,True,2026-08-17 18:02:32.631746
+721c17e6-88c3-4524-a317-bd709cafc01d,caparachindavid@gmail.com,David Julinho Caparachin Ricapa,STUDENT,True,2026-08-07 18:26:56.594553
+83fae43a-9e40-41cd-b301-bf2699e1ad5e,palominoleongino@gmail.com,gino alonzo palomino leon,STUDENT,True,2026-08-02 05:14:05.126677
+82c09bb3-0f53-4050-af19-949f82217d26,aldanap.sebastian@gmail.com,Sebastian Aldana Pachas,STUDENT,True,2026-08-02 05:20:23.085767
+9618fca2-41c9-4cb4-b522-2d7455fb4d75,ba.chambergom@alum.up.edu.pe,Benjamin Alessio Chambergo Matute,STUDENT,True,2026-08-02 05:32:20.029541
+1507da5f-a5e8-437a-b979-96cffd80649e,tp149054@gmail.com,Andy Manuel Trujillo Perez,STUDENT,True,2026-08-02 20:03:23.120703
+4c7e925f-0ffc-4165-ba71-3ca276fb95d5,alvaro.123zz46@gmail.com,Alvaro Aldahir Jimenez Huamani,STUDENT,True,2026-08-02 20:37:41.208937
+315c2d07-b711-4e21-a0e0-22ef1dcf8665,alfredchma@gmail.com,Mauricio Alfredo Choque Valdivia,STUDENT,True,2026-08-02 23:10:34.015338
+b0e9516b-2680-4b83-a3de-9fecfcf9b468,wspulloalucero5@gmail.com,Lucero Alicia Ulloa Mallaopoma,STUDENT,True,2026-08-02 23:11:19.116529
+b75c01dc-9a8a-4949-a3b8-8927802cc91e,valeriacamilahurtado@gmail.com,Valeria Camila Hurtado Vicuña,STUDENT,True,2026-08-03 13:43:29.668406
+bdb8c497-95dd-46ec-b91a-36e8f4a31103,christian.limayalb@gmail.com,Christian Alexander Limay Albarracin,STUDENT,True,2026-08-03 23:22:03.322828
+2cbf2198-8ad6-41ed-9791-5d9746c9435e,dayanna_rs08@hotmail.com,Dayanna Solange Ramos Santisteban,STUDENT,True,2026-08-03 23:31:21.991956
+4507497a-f0a4-45f1-8858-8420a2b443a1,sebastian.vc.0820@gmail.com,Sebastian Vicente Curiñaupa,STUDENT,True,2026-08-03 23:52:57.394955
+15b8554b-0097-4325-ac9c-6d5b8fa72a04,dnjarmass@gmail.com,DAMARIS NAJAR MASS,STUDENT,True,2026-08-04 02:34:19.724862
+bce4680e-9901-4aed-a222-74211697eeae,edu201888@gmail.com,Jose eduardo quintana cavero,STUDENT,True,2026-08-04 04:04:29.678035
+c8018726-58b0-468e-9d30-cb2ba9af5c47,oliveraluis2112@gmail.com,Luis Enrique Olivera García,STUDENT,True,2026-08-04 14:51:51.642554
+ee247a94-3c53-4ba4-ac64-268b0cc4a31d,anmicoro18fii@gmail.com,Antony Michael Cordova Rosales,STUDENT,True,2026-08-05 02:45:57.506283
+428e8be4-1e40-4d74-a733-0172d371d6cf,angiemanzanoj@gmail.com,Angie Nicole Manzano Jimenez,STUDENT,True,2026-08-05 04:23:06.636249
+8d0b6a84-e9ad-4b66-869e-89ac958f4458,hamed.98@gmail.com,Hamilton Medardo Huamán Tapia,STUDENT,True,2026-08-01 21:03:39.199142
+ddaa0bc5-e158-47d0-a5a6-cb59c7287a1d,nevermind.v4n@gmail.com,Vanessa Hualpa Baylon,STUDENT,True,2026-08-06 02:01:08.508660
+39e20f4d-155f-484b-9c7e-06e09922e0d9,kenji.huanca@gmail.com,KENJI ANTHONY HUANCA MAYTAN,STUDENT,True,2026-08-06 04:16:59.889123
+2a982085-c8cb-491e-9872-4647bd714cef,nathyraez@gmail.com,Nathaly Rossy Raez Chirinos,STUDENT,True,2026-08-07 00:16:40.069237
+d61ae9c1-aef4-47e2-b8d8-7475367cf90a,valeria2ureta6@gmail.com,Valeria Thais Ureta Llanque,STUDENT,True,2026-08-07 00:16:42.291684
+ee5a79e1-ee44-4b02-8e79-f1692bd044a0,valentinsebastian540@gmail.com,sebastian Valentín Malpartida,STUDENT,True,2026-08-03 00:41:55.650273
+d27af6fa-ed93-4fb9-91ed-ff4cbc7d14c5,gian99d@gmail.com,Gian Carlos Javier Ruiz Lopez,STUDENT,True,2026-08-17 18:02:28.464972

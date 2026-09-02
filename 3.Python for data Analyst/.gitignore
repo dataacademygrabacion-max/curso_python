@@ -1,0 +1,9 @@
+# Solo aplica si algun dia el curso se versiona con git.
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+*.pyc
+desktop.ini
+_ADMIN/
+_GRABACIONES/
+_RECURSOS/Instaladores/

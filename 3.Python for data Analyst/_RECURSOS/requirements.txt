@@ -1,0 +1,12 @@
+# Alternativa a environment.yml si el alumno no usa conda:
+#   python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+seaborn==0.13.2
+openpyxl==3.1.5
+requests==2.32.3
+jupyterlab==4.2.5
+ipykernel==6.29.5
+SQLAlchemy==2.0.35
+pyodbc==5.1.0

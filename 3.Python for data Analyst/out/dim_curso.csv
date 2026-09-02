@@ -1,0 +1,9 @@
+﻿id_curso,des_curso,slug,nivel,flg_publicado,num_lecciones,num_horas,rating,num_matriculados_app,id_profesor,fec_creacion,num_edicion,des_curso_canonico
+13fb3b78-8f36-427c-b4e0-de38b0e13619,Edición 3 | SQL for Data Analyst,edicion-3-sql-for-data-analyst,BEGINNER,True,9,9.0,0.0,46,a69513b4-f4f1-470e-bf71-2d4036543c19,2026-07-18 23:39:50.536176,3,SQL for Data Analyst
+177735de-789d-42e7-900c-5f0466dead78,4 EDICION |Excel for Data Analyst,4-edicion-excel-for-data-analyst,BEGINNER,True,8,24.0,0.0,36,67405dc6-1848-462f-b9f6-3c8dd43e9fec,2026-07-27 14:04:11.858880,4,Excel for Data Analyst
+1fb1d502-316a-4eb6-9854-82ddccbf554a,4 EDICION |Power BI for Data Analyst,4-edicion-power-bi-for-data-analyst,BEGINNER,True,8,24.0,0.0,17,3f787d87-3788-4375-a9c0-6cd6c28adc6c,2026-07-27 13:57:56.812991,4,Power BI
+1a17367d-d1ee-4ea9-a521-7f05a3913f19,Edición 3 | Power BI,edicion-3-power-bi,BEGINNER,True,7,77.0,0.0,20,a69513b4-f4f1-470e-bf71-2d4036543c19,2026-07-16 16:34:18.027056,3,Power BI
+fefa7113-18cb-42d2-b72b-7f1b006db66c,Edición 3 | Excel for data analyst,edicion-3-excel-for-data-analyst,INTERMEDIATE,True,0,0.0,0.0,46,a69513b4-f4f1-470e-bf71-2d4036543c19,2026-07-11 04:26:01.872215,3,Excel for Data Analyst
+979c6644-aa02-4cdc-b001-abbba99add23,4 EDICION |SQL para Data Analyst,4-edicion-sql-para-data-analyst,BEGINNER,True,8,24.0,0.0,43,9d7e703e-dc80-4ef7-95f6-66da285df699,2026-07-27 14:02:06.033748,4,SQL for Data Analyst
+5bc34270-030a-4e8e-903b-1225604dbd13,3ERA EDICION| Python for data Analyst,3era-edicion-python-for-data-analyst,BEGINNER,True,5,5.0,0.0,5,a69513b4-f4f1-470e-bf71-2d4036543c19,2026-07-29 17:55:53.048671,3,Python for Data Analyst
+97d3266d-49ab-4d0b-9fd4-f5ceda23401e,4TA EDICION| SQL Intermedio-Avanzado,4ta-edicion-sql-intermedio-avanzado,INTERMEDIATE,True,8,24.0,0.0,14,735eac2e-bc2e-4548-b4e4-7751cfdfd631,2026-07-27 00:19:25.634987,4,SQL Intermedio-Avanzado

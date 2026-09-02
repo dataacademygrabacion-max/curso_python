@@ -1,0 +1,22 @@
+id_cliente;nombre;ciudad;segmento;fecha_alta
+C001;Ana Torres;Cusco;Corporativo;2020-07-04
+C002;Luis Ramos;Cusco;Corporativo;2020-10-23
+C003;Carla Diaz;Arequipa;Corporativo;2023-04-02
+C004;Jorge Sosa;Piura;Corporativo;2023-08-15
+C005;Maria Leon;Arequipa;PyME;2022-07-08
+C006;Pedro Vega;Chiclayo;PyME;2020-07-18
+C007;Sofia Ruiz;Lima;Corporativo;2021-04-23
+C008;Diego Paz;Trujillo;PyME;2022-08-28
+C009;Elena Cruz;Chiclayo;Corporativo;2023-07-21
+C010;Raul Mena;Chiclayo;Corporativo;2023-04-13
+C011;Nadia Rojas;Piura;Retail;2021-10-01
+C012;Ivan Soto;Arequipa;Retail;2022-02-20
+C013;Paula Nieto;Lima;Corporativo;2023-06-09
+C014;Hugo Lara;Chiclayo;Retail;2022-02-18
+C015;Rosa Pinto;Trujillo;Retail;2021-05-07
+C016;Marco Silva;Cusco;Corporativo;2023-03-23
+C017;Julia Campos;Piura;Corporativo;2021-09-02
+C018;Oscar Bravo;Arequipa;PyME;2024-10-26
+C019;Nora Quispe;Chiclayo;PyME;2021-07-24
+C020;Cesar Ayala;Arequipa;PyME;2024-04-08
+C099;Cliente Sin Compras;Lima;PyME;2024-11-02

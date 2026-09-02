@@ -1,0 +1,102 @@
+-- 1. Crear Base de Datos
+CREATE DATABASE TiendaIrene_Basico;
+GO
+USE TiendaIrene_Basico;
+GO
+
+-- 2. Crear la Tabla Maestra (Desnormalizada)
+CREATE TABLE Ventas_Diarias (
+   ID_Registro INT IDENTITY(1,1) PRIMARY KEY,
+   Fecha_Venta DATE,
+   Cliente_Nombre VARCHAR(100),
+   Cliente_Ciudad VARCHAR(50),
+   Vendedor_Nombre VARCHAR(50),
+   Vendedor_Cargo VARCHAR(50),
+   Producto_Nombre VARCHAR(100),
+   Categoria VARCHAR(50),
+   Proveedor_Nombre VARCHAR(100),
+   Precio_Unitario DECIMAL(10,2),
+   Cantidad INT,
+   Total_Pagar DECIMAL(10,2), -- Columna calculada para facilitar sumas
+   Estado_Stock VARCHAR(20)   -- 'Normal' o 'Bajo'
+);
+GO
+
+-- 3. Poblar con Datos (Todo en uno)
+INSERT INTO Ventas_Diarias 
+(Fecha_Venta, Cliente_Nombre, Cliente_Ciudad, Vendedor_Nombre, Vendedor_Cargo, Producto_Nombre, Categoria, Proveedor_Nombre, Precio_Unitario, Cantidad, Total_Pagar, Estado_Stock) 
+VALUES 
+('2024-01-15', 'Luis Ramirez', 'Lima', 'Jorge Soto', 'Cajero', 'Coca Cola 3L', 'Bebidas', 'Distribuidora El Sol', 12.50, 2, 25.00, 'Normal'),
+('2024-01-15', 'Luis Ramirez', 'Lima', 'Jorge Soto', 'Cajero', 'Galletas Oreo', 'Snacks', 'Distribuidora El Sol', 2.50, 4, 10.00, 'Normal'),
+('2024-01-16', 'Ana Torres', 'Callao', 'Jorge Soto', 'Cajero', 'Arroz Costeño 5kg', 'Abarrotes', 'Importaciones Fast', 22.00, 1, 22.00, 'Bajo'),
+('2024-01-16', 'Ana Torres', 'Callao', 'Jorge Soto', 'Cajero', 'Aceite Primor 1L', 'Abarrotes', 'Importaciones Fast', 11.50, 2, 23.00, 'Normal'),
+('2023-11-20', 'Pedro Castillo', 'Lima', 'Irene Quispe', 'Dueña', 'Leche Gloria Azul', 'Lácteos', 'Lácteos del Sur', 4.20, 6, 25.20, 'Normal'),
+('2024-03-01', 'Luis Ramirez', 'Lima', 'Jorge Soto', 'Cajero', 'Inca Kola 3L', 'Bebidas', 'Distribuidora El Sol', 12.00, 1, 12.00, 'Normal'),
+('2024-03-02', 'Sofia Mendez', 'Arequipa', 'Marta Diaz', 'Reponedor', 'Yogurt Fresa 1L', 'Lácteos', 'Lácteos del Sur', 6.50, 3, 19.50, 'Bajo'),
+('2024-03-02', 'Sofia Mendez', 'Arequipa', 'Marta Diaz', 'Reponedor', 'Detergente Bolívar', 'Limpieza', 'Importaciones Fast', 8.50, 1, 8.50, 'Normal'),
+('2023-12-05', 'Juan Perez', 'Lima', 'Irene Quispe', 'Dueña', 'Panetón D''Onofrio', 'Snacks', 'Nestlé Perú', 25.00, 2, 50.00, 'Normal'),
+('2024-01-20', 'Maria Lopez', 'Callao', 'Jorge Soto', 'Cajero', 'Azúcar Rubia 5kg', 'Abarrotes', 'Importaciones Fast', 18.00, 1, 18.00, 'Normal');
+GO
+
+INSERT INTO Ventas_Diarias 
+(Fecha_Venta, Cliente_Nombre, Cliente_Ciudad, Vendedor_Nombre, Vendedor_Cargo, Producto_Nombre, Categoria, Proveedor_Nombre, Precio_Unitario, Cantidad, Total_Pagar, Estado_Stock) 
+VALUES 
+-- BLOQUE 1: Ventas de Enero 2024
+('2024-01-02', 'Luis Ramirez', 'Lima', 'Jorge Soto', 'Cajero', 'Coca Cola 3L', 'Bebidas', 'Distribuidora El Sol', 12.50, 2, 25.00, 'Normal'),
+('2024-01-02', 'Ana Torres', 'Callao', 'Jorge Soto', 'Cajero', 'Leche Gloria Azul', 'Lácteos', 'Lácteos del Sur', 4.20, 12, 50.40, 'Normal'),
+('2024-01-03', 'Pedro Castillo', 'Lima', 'Marta Diaz', 'Reponedor', 'Arroz Costeño 5kg', 'Abarrotes', 'Importaciones Fast', 22.00, 2, 44.00, 'Bajo'),
+('2024-01-05', 'Sofia Mendez', 'Arequipa', 'Irene Quispe', 'Dueña', 'Detergente Bolívar', 'Limpieza', 'Importaciones Fast', 8.50, 1, 8.50, 'Normal'),
+('2024-01-05', 'Juan Perez', 'Lima', 'Jorge Soto', 'Cajero', 'Inca Kola 3L', 'Bebidas', 'Distribuidora El Sol', 12.00, 3, 36.00, 'Normal'),
+('2024-01-10', 'Luis Ramirez', 'Lima', 'Marta Diaz', 'Reponedor', 'Yogurt Fresa 1L', 'Lácteos', 'Lácteos del Sur', 6.50, 5, 32.50, 'Bajo'),
+('2024-01-12', 'Ana Torres', 'Callao', 'Jorge Soto', 'Cajero', 'Galletas Oreo', 'Snacks', 'Distribuidora El Sol', 2.50, 10, 25.00, 'Normal'),
+('2024-01-15', 'Pedro Castillo', 'Lima', 'Jorge Soto', 'Cajero', 'Aceite Primor 1L', 'Abarrotes', 'Importaciones Fast', 11.50, 4, 46.00, 'Normal'),
+('2024-01-20', 'Sofia Mendez', 'Arequipa', 'Irene Quispe', 'Dueña', 'Coca Cola 3L', 'Bebidas', 'Distribuidora El Sol', 12.50, 6, 75.00, 'Normal'),
+('2024-01-25', 'Juan Perez', 'Lima', 'Marta Diaz', 'Reponedor', 'Jabón Protex', 'Limpieza', 'Importaciones Fast', 3.00, 6, 18.00, 'Bajo'),
+
+-- BLOQUE 2: Ventas de Febrero 2024 (Mes del amor y la amistad, más chocolates y bebidas)
+('2024-02-01', 'Luis Ramirez', 'Lima', 'Jorge Soto', 'Cajero', 'Galletas Oreo', 'Snacks', 'Distribuidora El Sol', 2.50, 2, 5.00, 'Normal'),
+('2024-02-02', 'Ana Torres', 'Callao', 'Jorge Soto', 'Cajero', 'Inca Kola 3L', 'Bebidas', 'Distribuidora El Sol', 12.00, 1, 12.00, 'Bajo'),
+('2024-02-05', 'Luis Ramirez', 'Lima', 'Marta Diaz', 'Reponedor', 'Leche Gloria Azul', 'Lácteos', 'Lácteos del Sur', 4.20, 24, 100.80, 'Normal'),
+('2024-02-14', 'Pedro Castillo', 'Lima', 'Irene Quispe', 'Dueña', 'Coca Cola 3L', 'Bebidas', 'Distribuidora El Sol', 12.50, 4, 50.00, 'Normal'),
+('2024-02-14', 'Sofia Mendez', 'Arequipa', 'Irene Quispe', 'Dueña', 'Galletas Oreo', 'Snacks', 'Distribuidora El Sol', 2.50, 8, 20.00, 'Normal'),
+('2024-02-20', 'Juan Perez', 'Lima', 'Jorge Soto', 'Cajero', 'Arroz Costeño 5kg', 'Abarrotes', 'Importaciones Fast', 22.00, 1, 22.00, 'Bajo'),
+('2024-02-22', 'Ana Torres', 'Callao', 'Marta Diaz', 'Reponedor', 'Detergente Bolívar', 'Limpieza', 'Importaciones Fast', 8.50, 2, 17.00, 'Normal'),
+('2024-02-25', 'Luis Ramirez', 'Lima', 'Jorge Soto', 'Cajero', 'Yogurt Fresa 1L', 'Lácteos', 'Lácteos del Sur', 6.50, 2, 13.00, 'Bajo'),
+('2024-02-28', 'Pedro Castillo', 'Lima', 'Jorge Soto', 'Cajero', 'Aceite Primor 1L', 'Abarrotes', 'Importaciones Fast', 11.50, 3, 34.50, 'Normal'),
+
+-- BLOQUE 3: Ventas Históricas de 2023 (Para probar filtros de AÑO)
+('2023-05-10', 'Sofia Mendez', 'Arequipa', 'Irene Quispe', 'Dueña', 'Arroz Costeño 5kg', 'Abarrotes', 'Importaciones Fast', 22.00, 5, 110.00, 'Normal'),
+('2023-06-15', 'Juan Perez', 'Lima', 'Irene Quispe', 'Dueña', 'Inca Kola 3L', 'Bebidas', 'Distribuidora El Sol', 12.00, 10, 120.00, 'Normal'),
+('2023-07-28', 'Luis Ramirez', 'Lima', 'Jorge Soto', 'Cajero', 'Coca Cola 3L', 'Bebidas', 'Distribuidora El Sol', 12.50, 12, 150.00, 'Normal'),
+('2023-08-05', 'Ana Torres', 'Callao', 'Marta Diaz', 'Reponedor', 'Detergente Bolívar', 'Limpieza', 'Importaciones Fast', 8.50, 5, 42.50, 'Normal'),
+('2023-09-12', 'Pedro Castillo', 'Lima', 'Jorge Soto', 'Cajero', 'Galletas Oreo', 'Snacks', 'Distribuidora El Sol', 2.50, 20, 50.00, 'Normal'),
+('2023-10-31', 'Sofia Mendez', 'Arequipa', 'Marta Diaz', 'Reponedor', 'Leche Gloria Azul', 'Lácteos', 'Lácteos del Sur', 4.20, 6, 25.20, 'Bajo'),
+('2023-11-15', 'Juan Perez', 'Lima', 'Irene Quispe', 'Dueña', 'Aceite Primor 1L', 'Abarrotes', 'Importaciones Fast', 11.50, 2, 23.00, 'Normal'),
+('2023-12-01', 'Luis Ramirez', 'Lima', 'Jorge Soto', 'Cajero', 'Yogurt Fresa 1L', 'Lácteos', 'Lácteos del Sur', 6.50, 4, 26.00, 'Bajo'),
+('2023-12-24', 'Ana Torres', 'Callao', 'Irene Quispe', 'Dueña', 'Coca Cola 3L', 'Bebidas', 'Distribuidora El Sol', 12.50, 6, 75.00, 'Normal'),
+('2023-12-31', 'Pedro Castillo', 'Lima', 'Jorge Soto', 'Cajero', 'Inca Kola 3L', 'Bebidas', 'Distribuidora El Sol', 12.00, 6, 72.00, 'Normal'),
+
+-- BLOQUE 4: Ventas Recientes de Marzo/Abril 2024
+('2024-03-01', 'Sofia Mendez', 'Arequipa', 'Marta Diaz', 'Reponedor', 'Jabón Protex', 'Limpieza', 'Importaciones Fast', 3.00, 10, 30.00, 'Normal'),
+('2024-03-05', 'Juan Perez', 'Lima', 'Jorge Soto', 'Cajero', 'Arroz Costeño 5kg', 'Abarrotes', 'Importaciones Fast', 22.00, 2, 44.00, 'Bajo'),
+('2024-03-10', 'Luis Ramirez', 'Lima', 'Irene Quispe', 'Dueña', 'Leche Gloria Azul', 'Lácteos', 'Lácteos del Sur', 4.20, 3, 12.60, 'Normal'),
+('2024-03-15', 'Ana Torres', 'Callao', 'Marta Diaz', 'Reponedor', 'Aceite Primor 1L', 'Abarrotes', 'Importaciones Fast', 11.50, 1, 11.50, 'Bajo'),
+('2024-03-20', 'Pedro Castillo', 'Lima', 'Jorge Soto', 'Cajero', 'Detergente Bolívar', 'Limpieza', 'Importaciones Fast', 8.50, 3, 25.50, 'Normal'),
+('2024-04-01', 'Sofia Mendez', 'Arequipa', 'Irene Quispe', 'Dueña', 'Coca Cola 3L', 'Bebidas', 'Distribuidora El Sol', 12.50, 2, 25.00, 'Normal'),
+('2024-04-02', 'Juan Perez', 'Lima', 'Jorge Soto', 'Cajero', 'Galletas Oreo', 'Snacks', 'Distribuidora El Sol', 2.50, 5, 12.50, 'Normal'),
+('2024-04-03', 'Luis Ramirez', 'Lima', 'Marta Diaz', 'Reponedor', 'Yogurt Fresa 1L', 'Lácteos', 'Lácteos del Sur', 6.50, 8, 52.00, 'Bajo'),
+('2024-04-04', 'Ana Torres', 'Callao', 'Irene Quispe', 'Dueña', 'Inca Kola 3L', 'Bebidas', 'Distribuidora El Sol', 12.00, 5, 60.00, 'Normal'),
+('2024-04-05', 'Pedro Castillo', 'Lima', 'Jorge Soto', 'Cajero', 'Arroz Costeño 5kg', 'Abarrotes', 'Importaciones Fast', 22.00, 1, 22.00, 'Bajo'),
+
+-- BLOQUE 5: Más ventas para hacer volumen
+('2024-01-08', 'Carlos Ruiz', 'Lima', 'Jorge Soto', 'Cajero', 'Aceite Primor 1L', 'Abarrotes', 'Importaciones Fast', 11.50, 1, 11.50, 'Normal'),
+('2024-01-09', 'Carlos Ruiz', 'Lima', 'Jorge Soto', 'Cajero', 'Arroz Costeño 5kg', 'Abarrotes', 'Importaciones Fast', 22.00, 2, 44.00, 'Normal'),
+('2024-02-11', 'Maria Lopez', 'Callao', 'Marta Diaz', 'Reponedor', 'Detergente Bolívar', 'Limpieza', 'Importaciones Fast', 8.50, 1, 8.50, 'Bajo'),
+('2024-02-12', 'Maria Lopez', 'Callao', 'Marta Diaz', 'Reponedor', 'Jabón Protex', 'Limpieza', 'Importaciones Fast', 3.00, 4, 12.00, 'Normal'),
+('2024-03-15', 'Lucia Fernandez', 'Arequipa', 'Irene Quispe', 'Dueña', 'Yogurt Fresa 1L', 'Lácteos', 'Lácteos del Sur', 6.50, 2, 13.00, 'Normal'),
+('2024-03-16', 'Lucia Fernandez', 'Arequipa', 'Irene Quispe', 'Dueña', 'Leche Gloria Azul', 'Lácteos', 'Lácteos del Sur', 4.20, 10, 42.00, 'Normal'),
+('2024-04-10', 'Carlos Ruiz', 'Lima', 'Jorge Soto', 'Cajero', 'Coca Cola 3L', 'Bebidas', 'Distribuidora El Sol', 12.50, 1, 12.50, 'Normal'),
+('2024-04-12', 'Maria Lopez', 'Callao', 'Jorge Soto', 'Cajero', 'Inca Kola 3L', 'Bebidas', 'Distribuidora El Sol', 12.00, 2, 24.00, 'Normal'),
+('2024-04-14', 'Lucia Fernandez', 'Arequipa', 'Marta Diaz', 'Reponedor', 'Galletas Oreo', 'Snacks', 'Distribuidora El Sol', 2.50, 3, 7.50, 'Normal'),
+('2024-04-15', 'Pedro Castillo', 'Lima', 'Irene Quispe', 'Dueña', 'Jabón Protex', 'Limpieza', 'Importaciones Fast', 3.00, 2, 6.00, 'Bajo');
+GO

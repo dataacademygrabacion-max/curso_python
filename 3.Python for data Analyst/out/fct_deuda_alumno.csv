@@ -1,0 +1,95 @@
+﻿email,nombre_alumno,dni,cursos,opcion_pago,mnt_plan_total,mnt_pagado,num_cuotas,fec_ultimo_pago,mnt_pago_pendiente,flg_deudor,pct_pagado
+nicollemautino@gmail.com,Nicolle Esther Mautino Borja,,Especialización de Data Analyst,Opción 1: Pago al contado,757.0,0.0,1,2026-07-16 23:48:44.000000,757.0,True,0.0
+heygnersandoval@gmail.com,Heigner Jesus Sandoval Arrunategui,73856907,Especialización de Data Analyst,Opción 3: Pago en 3 cuotas (S/100 + S/299 + S/209 + S/209),817.0,100.0,1,2026-08-18 00:49:02.026206,717.0,True,12.2
+etar.218@gmail.com,Elvis Alfredo Tapia Rodriguez,,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas,788.0,100.0,1,2026-07-20 00:00:00.000000,688.0,True,12.7
+mquintanalopez6@gmail.com,Miguel Angel Quintana Lopez,,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas,788.0,100.0,1,2026-07-16 00:00:00.000000,688.0,True,12.7
+sebastian.vc.0820@gmail.com,Sebastian Vicente Curiñaupa,72898557,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,100.0,1,2026-08-03 23:50:34.355340,688.0,True,12.7
+alejandrogabrielsorianopalo@gmail.com,Alejandro Gabriel Soriano Palomino,72544864,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,100.0,1,2026-08-18 00:29:59.558290,657.0,True,13.2
+venegasalexander1c1302190@gmail.com,Alexander Adolfo Venegas Venegas,72911360,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,100.0,1,2026-08-17 19:09:36.738197,657.0,True,13.2
+latorrejaramillolf@gmail.com,Luis Fernando La Torre Jaramillo,76124340,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,100.0,1,2026-08-14 21:01:02.294336,657.0,True,13.2
+alejandrobarrialt@gmail.com,Carlos Alejandro Aranda Barrial,71539351,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,100.0,1,2026-08-15 17:41:34.463930,657.0,True,13.2
+miguel.quintana2@unmsm.edu.pe,Miguel Angel Quintana Lopez,74726516,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,259.0,1,2026-07-31 19:09:42.976814,529.0,True,32.9
+alfredchma@gmail.com,Mauricio Alfredo Choque Valdivia,77077187,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,359.0,2,2026-08-02 20:15:22.175915,429.0,True,45.6
+quitoanccasiantonyrodrigo@gmail.com,Antony Rodrigo Quito Anccasi,74394181,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,359.0,2,2026-07-31 03:01:23.967339,429.0,True,45.6
+paul.quiroz.a@uni.pe,Paúl Quiroz Alva,71747491,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,359.0,2,2026-07-30 19:21:26.290233,429.0,True,45.6
+oscar19vr@gmail.com,OSCAR MIJAIL VERA ROJAS,75924222,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,359.0,2,2026-07-30 04:09:05.937713,429.0,True,45.6
+cynthia134045@gmail.com,Cynthia Paola Falero Salazar,47908384,Especialización de Data Analyst,,788.0,359.0,2,2026-07-31 03:31:15.173250,429.0,True,45.6
+etorre.tanta@gmail.com,Luis Enrique Torre Tanta,70505359,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,359.0,2,2026-08-01 20:42:21.844750,429.0,True,45.6
+khaoz20624@gmail.com,Alexander Jeferson Arce Crisanto,75399159,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,359.0,2,2026-07-29 02:46:24.453250,429.0,True,45.6
+eduardo.avalos.re@outlook.com,Eduardo Daniel Avalos Remon,74656135,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,359.0,2,2026-08-01 04:28:25.925646,429.0,True,45.6
+hamed_ancel@hotmail.com,Hamilton Medardo Huamán Tapia,40944363,Especialización de Data Analyst,Opción 3: Pago en 3 cuotas (S/100 + S/299 + S/209 + S/209),817.0,399.0,1,2026-08-01 21:03:06.151901,418.0,True,48.8
+drfreddy90@gmail.com,Sebastian,74064642,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas (S/100 + S/299 + S/389),788.0,399.0,3,2026-07-26 20:29:23.197247,389.0,True,50.6
+emmanuel010802@gmail.com,Carlos Emmanuel Espinoza,72963909,"Power BI Basico-Intermedio, SQL for data Enginier",,279.0,100.0,1,2026-08-18 01:17:37.835383,179.0,True,35.8
+alexcercadomonroy@gmail.com,Alex Enrique Cercado Monroy,74969132,"SQL for data Analyst, Excel for data Analyst",,279.0,100.0,1,2026-07-28 01:52:07.399605,179.0,True,35.8
+cristhian.duran.cayetano@gmail.com,Cristhian Angel Duran Cayetano,,Especialización de Data Analyst,Opción 1: Pago al contado,757.0,597.0,1,2026-07-18 08:37:28.000000,160.0,True,78.9
+e.edynina.h@gmail.com,Edy Enrique Nina Huillca,76153102,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,607.0,2,2026-07-31 03:41:01.759243,150.0,True,80.2
+chavovinces67@gmail.com,Carlos Santiago Zapata Vinces,75083514,SQL for data Analyst,,169.0,50.0,1,2026-08-19 01:23:29.215457,119.0,True,29.6
+ppulloalucero5@gmail.com,Lucero Alicia Ulloa Mallaopoma,,SQL for data Analyst,,169.0,50.0,1,2026-07-29 20:49:26.816980,119.0,True,29.6
+edu201888@gmail.com,Jose eduardo quintana cavero,,Power BI Basico-Intermedio,,169.0,50.0,1,2026-07-29 20:49:26.816980,119.0,True,29.6
+carol.mondragonm@gmail.com,Carol Valery Mondragón Moran,,Excel for data Analyst,,169.0,50.0,1,2026-07-29 20:49:26.816980,119.0,True,29.6
+river.vela790@gmail.com,Bruno Anthony Riveros Vela,72323121,SQL for data Analyst,,169.0,50.0,1,2026-08-08 19:49:17.418541,119.0,True,29.6
+valerajeanpier26@gmail.com,Jeanpier Michaelson Valera Yana,,Excel for data Analyst,,169.0,99.0,1,2026-07-18 11:03:35.000000,70.0,True,58.6
+juliohuidobro21@gmail.com,HUIDOBRO TRUJILLO JULIO CESAR,73618374,Power BI Basico-Intermedio,,169.0,109.0,1,2026-07-29 18:05:52.030312,60.0,True,64.5
+diegoagameroc@gmail.com,DIEGO ANDRÉS GAMERO COTRINA,,Especialización de Data Analyst,Opción 2: Pago en 2 cuotas,788.0,738.0,2,2026-07-21 22:34:05.000000,50.0,True,93.7
+christian.limayalb@gmail.com,Christian Alexander Limay Albarracin,47342105,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,707.0,1,2026-08-03 23:18:45.779829,50.0,True,93.4
+aldanap.sebastian@gmail.com,Sebastian Aldana Pachas,76644117,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,707.0,1,2026-08-02 05:18:54.106333,50.0,True,93.4
+alexcercado29@gmail.com,Alex Enrique Cercado Monroy,74969132,"SQL for data Analyst, Excel for data Analyst",,279.0,229.0,1,2026-07-28 01:37:40.384346,50.0,True,82.1
+valentinsebastian540@gmail.com,sebastian Valentín Malparida,73141722,Especialización de Data Analyst,,757.0,709.0,2,2026-08-03 00:39:08.603761,48.0,True,93.7
+nathyraez@gmail.com,Nathaly Rossy Raez Chirinos,44769106,SQL for data Enginier,,169.0,129.0,1,2026-08-06 23:59:56.003699,40.0,True,76.3
+angiemanzanoj@gmail.com,Angie Nicole Manzano Jimenez,72404292,SQL for data Enginier,,169.0,149.0,1,2026-08-05 04:14:45.229650,20.0,True,88.2
+merinojames@hotmail.com,James Rolando Merino Colcas,,Python for data Analyst,,169.0,149.0,1,2026-07-25 23:23:15.000000,20.0,True,88.2
+wfloreshuaytalla@gmail.com,WILLIAM AARON FLORES HUAYTALLA,75368373,SQL for data Analyst,,169.0,149.0,2,2026-07-29 20:49:26.816980,20.0,True,88.2
+angelgabrielpachecosalas@gmail.com,Angel Gabriel Pacheco Salas,74087820,Power BI Basico-Intermedio,,169.0,159.0,1,2026-08-01 00:17:21.511980,10.0,True,94.1
+valeriacamilahurtado@gmail.com,Valeria Camila Hurtado Vicuña,72115811,Power BI Basico-Intermedio,,169.0,159.0,1,2026-08-03 13:42:59.456549,10.0,True,94.1
+yampiermq07@gmail.com,Yampier Marcelo Quispe,62332924,Python for data Analyst,,169.0,159.0,2,2026-07-29 20:49:26.816980,10.0,True,94.1
+nevermind.v4n@gmail.com,Vanessa Hualpa Baylon,73373566,Excel for data Analyst,,169.0,159.0,1,2026-08-06 01:59:59.319085,10.0,True,94.1
+jorgeauccaccollatupa@gmail.com,Jorge luis Aucca Ccollatupa,70377466,SQL for data Enginier,,169.0,159.0,1,2026-07-29 21:39:52.995913,10.0,True,94.1
+kenji.huanca@gmail.com,KENJI ANTHONY HUANCA MAYTAN,47223887,SQL for data Enginier,,169.0,159.0,1,2026-08-06 04:16:02.817639,10.0,True,94.1
+anmicoro18fii@gmail.com,Antony Michael Cordova Rosales,71645418,Power BI Basico-Intermedio,,169.0,159.0,1,2026-08-05 02:52:17.975481,10.0,True,94.1
+alanrauljq17@gmail.com,Alan Raul Jimenez Quispe,70694898,Excel for data Analyst,,169.0,179.0,3,2026-07-30 00:51:48.912118,0.0,False,105.9
+castrovidartemabelnayeli@gmail.com,Mabel Nayeli Rima Castro Vidarte,,SQL for data Analyst,,169.0,169.0,1,2026-07-20 21:11:55.000000,0.0,False,100.0
+centenochurampijesmarhernan@gmail.com,Jesmar Hernan Centeno Churampi,,Power BI Basico-Intermedio,,169.0,169.0,1,2026-07-11 13:11:48.000000,0.0,False,100.0
+anthonyjhoanpuentecarpio@gmail.com,Anthony Jhoan Puente Carpio,76378122,SQL for data Analyst,,169.0,318.0,2,2026-08-03 23:03:15.650414,0.0,False,188.2
+arathhh123@gmail.com,Martin Arath Taboada Rivera,,SQL for data Enginier,,169.0,169.0,1,2026-07-11 14:20:13.000000,0.0,False,100.0
+ba.chambergom@alum.up.edu.pe,Benjamin Alessio Chambergo Matute,76922691,SQL for data Analyst,,169.0,179.0,1,2026-08-02 05:31:31.226726,0.0,False,105.9
+bryanbv2697@gmail.com,Bryan Fernando Barba Vargas,,Power BI Basico-Intermedio,,169.0,179.0,1,2026-07-06 18:10:45.000000,0.0,False,105.9
+angelo78107102@gmail.com,ANGELO JUAN SANCHEZ FLORES,,SQL for data Enginier,,169.0,179.0,1,2026-07-20 13:06:41.000000,0.0,False,105.9
+adrianchuchullo@gmail.com,Adrian Chuchullo Rumi,,"SQL for data Analyst, Power BI Basico-Intermedio",,279.0,319.0,1,2026-07-19 20:47:22.000000,0.0,False,114.3
+abelarcasi19@gmail.com,Abel Sebastian Arcasi Rivera,71380933,SQL for data Analyst,,169.0,169.0,1,2026-07-29 20:34:01.189709,0.0,False,100.0
+972847175campo@gmail.com,Joseluis Antonio Campo Bocanegra,,SQL for data Analyst,,169.0,319.0,2,2026-07-15 22:49:16.000000,0.0,False,188.8
+1921110277@untels.edu.pe,Anthony Ernesto Rojas Avalos,,SQL for data Analyst,,169.0,179.0,1,2026-07-18 10:04:56.000000,0.0,False,105.9
+alexanderjorgecastillo20@gmail.com,Alexander Jorge Castillo,77484557,SQL for data Enginier,,169.0,169.0,2,2026-07-29 20:49:26.816980,0.0,False,100.0
+alexia.umpiri@gmail.com,Alexia Michelle Arapa Umpiri,74907081,SQL for data Analyst,,169.0,169.0,1,2026-07-30 15:23:21.291223,0.0,False,100.0
+alvaro.123zz46@gmail.com,Alvaro Aldahir Jimenez Huamani,75186503,Excel for data Analyst,,169.0,179.0,1,2026-08-02 20:36:42.738294,0.0,False,105.9
+cusidiego291@gmail.com,Diego Oswaldo Cusi Ccaihuari,,Excel for data Analyst,,169.0,169.0,1,2026-07-21 08:35:51.999000,0.0,False,100.0
+caparachindavid@gmail.com,David Julinho Caparachin Ricapa,73984369,SQL for data Analyst,,169.0,179.0,1,2026-08-07 18:26:22.138184,0.0,False,105.9
+josevalebboy@gmail.com,JOSE ARMANDO VALERIANO QUISPE,,Especialización de Data Analyst,Opción 1: Pago al contado,757.0,1394.0,2,2026-07-20 23:14:27.000000,0.0,False,184.1
+francardenasavalos@gmail.com,Francisco Pedro Cardenas Avalos,77123564,SQL for data Analyst,,169.0,219.0,2,2026-08-01 04:23:26.751451,0.0,False,129.6
+guimarespettia@gmail.com,Guimar Alan Julian Espettia Salazar,70706423,(sin especificar),,,50.0,1,2026-08-17 17:09:34.617202,0.0,False,
+gian99d@gmail.com,Gian Carlos Javier Ruiz Lopez,73220818,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,757.0,1,2026-08-17 14:30:28.744647,0.0,False,100.0
+henryelcr@gmail.com,HENRY GANBERTI SANTA CRUZ BRAMON,72483242,"Excel for data Analyst, SQL for data Analyst",,279.0,319.0,2,2026-07-31 18:38:59.238453,0.0,False,114.3
+jeanvelasque75@gmail.com,jhon carlos jea paul velasque,72792539,"Python for data Analyst, SQL for data Analyst",,,0.0,1,2026-07-26 16:53:24.746566,0.0,False,
+fernand0guzfer547@gmail.com,Fernando Jose Guzman Fernandez,74151077,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,797.0,5,2026-07-28 02:58:10.433655,0.0,False,105.3
+diazsacarisebastian@gmail.com,SEBASTIAN CARLOS DIAZ SACARI,74072292,Excel for data Analyst,,169.0,169.0,1,2026-07-29 18:50:27.041093,0.0,False,100.0
+dnjarmass@gmail.com,DAMARIS NAJAR MASS,72239340,Excel for data Analyst,,169.0,179.0,1,2026-08-04 02:19:48.929500,0.0,False,105.9
+daviiidramirezrosales@gmail.com,David Gianfranco Ramirez Rosales,,SQL for data Enginier,,169.0,169.0,1,2026-07-08 19:56:02.000000,0.0,False,100.0
+danielvizcar@gmail.com,Daniel Vizcardo Cruz,46899032,Excel for data Analyst,,169.0,219.0,2,2026-08-01 21:09:18.426028,0.0,False,129.6
+dataacademylatam@gmail.com,Sebastian,74064642,"Sql INTEMRDIO AVANZADO, sql intermedio",,,0.0,2,2026-07-25 08:38:33.075379,0.0,False,
+dayanna_rs08@hotmail.com,Dayanna Solange Ramos Santisteban,72698221,Power BI Basico-Intermedio,,169.0,169.0,1,2026-08-03 23:29:17.332771,0.0,False,100.0
+edujuegos31245@gmail.com,EDU JOSEPH SANCHEZ GOTEA,,Excel for data Analyst,,169.0,179.0,1,2026-07-11 10:48:29.000000,0.0,False,105.9
+kaisamedinag@gmail.com,Especialización de Data Analyst,72784471,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,757.0,1,2026-07-30 23:39:36.764268,0.0,False,100.0
+jsaldarriagajauregui@gmail.com,José Angel Saldarriaga Jauregui,75011045,"SQL for data Analyst, Power BI Basico-Intermedio, Python for data Analyst, Excel for data Analyst",,529.0,597.0,2,2026-07-30 23:57:30.993501,0.0,False,112.9
+obed.chavez.c@uni.pe,Obed Andres Chavez Chambilla,75441216,"Excel for data Analyst, SQL for data Analyst",,279.0,329.0,1,2026-08-01 20:27:41.843006,0.0,False,117.9
+luistrujilloc96@gmail.com,Luis Jaime Manuel Trujillo Carrasco,74397510,Power BI Basico-Intermedio,,169.0,179.0,1,2026-07-31 19:42:11.038633,0.0,False,105.9
+meli231144@gmail.com,Melissa Katherine Ponce Fernández,75896988,SQL for data Analyst,,169.0,338.0,2,2026-07-26 15:54:34.326500,0.0,False,200.0
+mblancom7@gmail.com,Marco Antonio Blanco Martinez,43597487,Power BI Basico-Intermedio,,169.0,179.0,2,2026-07-30 14:57:13.760366,0.0,False,105.9
+mateopieroaldair@gmail.com,Piero Aldair Mateo Tito,61293843,"SQL for data Analyst, Python for data Analyst",,279.0,319.0,2,2026-07-28 01:59:19.532587,0.0,False,114.3
+merlinrojasa@gmail.com,Merlin Rojas Abanto,,Especialización de Data Analyst,Opción 1: Pago al contado,757.0,757.0,1,2026-07-16 23:48:51.000000,0.0,False,100.0
+palominoleongino@gmail.com,gino alonzo palomino leon,76174462,SQL for data Enginier,,169.0,279.0,2,2026-08-02 05:07:06.462831,0.0,False,165.1
+oliveraluis2112@gmail.com,Luis Enrique Olivera García,73016502,Especialización de Data Analyst,Opción 1: Pago al contado (S/100 + S/657),757.0,757.0,1,2026-08-04 14:51:00.274747,0.0,False,100.0
+richardesteban53@gmail.com,Richard Daniel Esteban Rojas,75569992,SQL for data Analyst,,169.0,179.0,1,2026-08-07 04:32:59.252261,0.0,False,105.9
+salvadorkelly72@gmail.com,Kelly Alessandra Salvador Cahuana,73178648,Python for data Analyst,,169.0,169.0,1,2026-08-16 21:16:30.327708,0.0,False,100.0
+tp149054@gmail.com,Andy Manuel Trujillo Perez,77694775,Power BI Basico-Intermedio,,169.0,169.0,2,2026-08-02 20:01:28.669506,0.0,False,100.0
+valeria2ureta6@gmail.com,Valeria Thais Ureta Llanque,72906057,SQL for data Analyst,,169.0,179.0,1,2026-08-07 00:16:05.423318,0.0,False,105.9
+velizmajo28@gmail.com,María José Veliz de la Cruz,,"SQL for data Analyst, Excel for data Analyst",,279.0,319.0,1,2026-07-19 15:52:12.000000,0.0,False,114.3
+wspulloalucero5@gmail.com,Lucero Alicia Ulloa Mallaopoma,76192630,SQL for data Analyst,,169.0,169.0,1,2026-08-02 22:08:02.750196,0.0,False,100.0

@@ -1,0 +1,7 @@
+﻿id_usuario,email,nombre,rol,flg_activo,fec_registro,num_cursos
+a69513b4-f4f1-470e-bf71-2d4036543c19,carlos311711@gmail.com,Jhon Velasque,ADMIN,True,2026-07-04 06:22:37.020530,4
+735eac2e-bc2e-4548-b4e4-7751cfdfd631,jhon.velasque@unmsm.edu.pe,JHON CARLOS VELASQUE DURAND,INSTRUCTOR,True,2026-07-27 00:08:27.132262,1
+80f1019c-3298-4868-8fff-29a062a231c8,ssenmache8@gmail.com,Sebastian Senmache,INSTRUCTOR,True,2026-07-04 06:25:34.000420,0
+3f787d87-3788-4375-a9c0-6cd6c28adc6c,juniorcandela98@gmail.com,junior candela,INSTRUCTOR,True,2026-07-27 03:42:46.905974,1
+67405dc6-1848-462f-b9f6-3c8dd43e9fec,danielsurichaque@gmail.com,daniel surichaque,INSTRUCTOR,True,2026-07-27 13:59:46.902856,1
+9d7e703e-dc80-4ef7-95f6-66da285df699,jordandelacruz.pascual@gmail.com,jordan delacruz,INSTRUCTOR,True,2026-07-27 14:01:29.070309,1

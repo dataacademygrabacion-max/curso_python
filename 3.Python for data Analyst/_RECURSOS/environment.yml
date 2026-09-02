@@ -1,0 +1,20 @@
+# Entorno del curso. Crear con:
+#   conda env create -f environment.yml
+#   conda activate pyda3
+name: pyda3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=2.2.*
+  - numpy=1.26.*
+  - matplotlib=3.8.*
+  - seaborn=0.13.*
+  - openpyxl=3.1.*        # leer/escribir .xlsx
+  - requests=2.32.*       # APIs
+  - jupyterlab=4.*
+  - ipykernel
+  - sqlalchemy=2.0.*      # conexiones a BBDD
+  - pip
+  - pip:
+      - pyodbc==5.1.0     # SQL Server (requiere driver ODBC del sistema)

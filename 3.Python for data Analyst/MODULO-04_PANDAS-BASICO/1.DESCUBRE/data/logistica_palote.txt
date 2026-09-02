@@ -1,0 +1,5 @@
+guia|origen|destino|peso_kg|estado
+G100|Lima|Arequipa|15.5|Entregado
+G101|Cusco|Lima|???|En transito
+G102|Piura|Tacna|22.0|No_Data
+G103|Trujillo|Lima|8.5|Entregado
